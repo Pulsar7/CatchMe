@@ -18,6 +18,8 @@ Catch your friends with your phone using GPS.
     
 > Using Python-Module: Kivy
 
+> Converting to <code>.apk</code> by using **Buildozer**
+
 
 ## Requirements
 
