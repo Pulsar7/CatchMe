@@ -1,6 +1,6 @@
 # "Catch-Me"
 
-Catch your friends with your phone using GPS.
+Catch your friends with your phone using GPS and Bluetooth sockets.
 
 ## Table of contents
 
