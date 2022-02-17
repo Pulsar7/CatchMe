@@ -16,7 +16,7 @@ Catch your friends with your phone using GPS.
 
 ## Full Explanation
     
-//    
+> Using Python-Module: Kivy
 
 
 ## Requirements
