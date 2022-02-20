@@ -1,0 +1,141 @@
+#:kivy 1.9.0
+
+WindowManager:
+    HomeWindow:
+    CreateGameWindow:
+    ParticipateGameWindow:
+
+<HomeWindow>:
+    name: "home"
+
+    canvas:
+        Color:
+            rgb: [33/255,36/255,40/255]
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        padding: 25
+        spacing: 20
+
+        ActionBar:
+            ActionView:
+                id: actionview
+                ActionPrevious:
+                    title: "CatchMe"
+
+                ActionButton:
+                    id: spiel_beitreten_btn
+                    text: "Spiel beitreten"
+                    on_release: 
+                        app.root.current = "participate_game"
+                        root.manager.transition.direction = "left"
+
+                ActionButton:
+                    id: spiel_erstellen_btn
+                    text: "Spiel erstellen"
+                    on_release: 
+                        app.root.current = "create_game"
+                        root.manager.transition.direction = "left"
+        
+        Label:
+            id: info_text_title
+            text: "Was ist 'CatchMe'?"
+            font_size: 24
+            text_size: self.size
+            size_hint: (1,.1)
+
+        Label:
+            id: info_text_one
+            text: root.info_text_one
+            font_size: 18
+            canvas.before:
+                Color:
+                    rgb: [82/255,88/255,102/255]
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+
+        Label:
+            id: info_text_title
+            text: "Wie spiele ich das Spiel?"
+            font_size: 24
+            text_size: self.size
+            size_hint: (1,.1)
+
+        Label:
+            id: info_text_two
+            text: root.info_text_two
+            font_size: 18
+            canvas.before:
+                Color:
+                    rgb: [82/255,88/255,102/255]
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+
+<CreateGameWindow>:
+    name: "create_game"
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        ActionBar:
+            ActionView:
+                id: actionview
+                ActionPrevious:
+                    title: "Hello"
+                    on_release:
+                        app.root.current = "home"
+                        root.manager.transition.direction = "right"
+
+                ActionButton:
+                    id: spiel_beitreten_btn
+                    text: "Spiel beitreten"
+                    on_release: 
+                        app.root.current = "participate_game"
+                        root.manager.transition.direction = "left"
+        
+        Button:
+            text: "Go Back"
+            font_size: 32
+            on_release: 
+                app.root.current = "home"
+                root.manager.transition.direction = "down"
+
+
+<ParticipateGameWindow>:
+    name: "participate_game"
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        ActionBar:
+            ActionView:
+                id: actionview
+                ActionPrevious:
+                    title: "Hello"
+                    on_release:
+                        app.root.current = "home"
+                        root.manager.transition.direction = "right"
+
+                ActionButton:
+                    id: spiel_erstellen_btn
+                    text: "Spiel erstellen"
+                    on_release: 
+                        app.root.current = "create_game"
+                        root.manager.transition.direction = "left"
+        
+        Button:
+            text: "Go Back"
+            font_size: 32
+            on_release: 
+                app.root.current = "home"
+                root.manager.transition.direction = "up"
