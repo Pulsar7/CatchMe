@@ -20,7 +20,7 @@ The Server does not save personal data of the clients and there is no need of an
     
 - Android-APP (Client): Using Python-Module: [**Kivy**](https://kivy.org/#home)
 
-- Converting to <code>.apk</code> by using [**Buildozer**](https://buildozer.readthedocs.io/en/latest/)
+    - Converting to <code>.apk</code> by using [**Buildozer**](https://buildozer.readthedocs.io/en/latest/)
 
 
 ## Requirements
