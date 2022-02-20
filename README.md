@@ -1,6 +1,7 @@
 # "Catch-Me"
 
 Catch your friends with your phone using GPS and TCP sockets. The App connects to a socket-server which hosts and handle all the games.
+The server communicates with the client using a 265-AES-Encryption.
 
 ## Table of contents
 
