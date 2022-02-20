@@ -4,6 +4,8 @@ Catch your friends with your phone using GPS and TCP sockets. The App connects t
 The server communicates with the client using a [**256-AES-Encryption**](https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_modules_of_cryptography.htm).
 The Server does not save personal data of the clients and there is no need of an account.
 
+## <code>Is still in progress.</code>
+
 ## Table of contents
 
 * [Full Explanation](#full-explanation)
