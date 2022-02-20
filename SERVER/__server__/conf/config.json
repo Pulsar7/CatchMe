@@ -1,0 +1,17 @@
+{
+    "server": {
+        "name": "CatchMe",
+        "host": "localhost",
+        "port": 1337,
+
+        "max_incoming_connections": 5
+    },
+    
+    "database": {
+        "path": "__server__/database/database.db"
+    },
+
+    "encryption": {
+
+    }
+}
