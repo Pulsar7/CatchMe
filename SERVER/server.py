@@ -1,4 +1,3 @@
-from http import client
 import socket,sys,platform,os,threading
 sys.dont_write_bytecode = True
 from __server__.modules import (config,printout,database)
