@@ -1,6 +1,6 @@
 # "Catch-Me"
 
-Catch your friends with your phone using GPS and Bluetooth sockets.
+Catch your friends with your phone using GPS and TCP sockets. The App connects to a socket-server which hosts and handle all the games.
 
 ## Table of contents
 
