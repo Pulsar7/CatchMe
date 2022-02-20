@@ -2,6 +2,7 @@
 
 Catch your friends with your phone using GPS and TCP sockets. The App connects to a socket-server which hosts and handle all the games.
 The server communicates with the client using a 265-AES-Encryption.
+The Server does not save personal data of the clients and there is no need of an account.
 
 ## Table of contents
 
