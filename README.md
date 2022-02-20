@@ -35,4 +35,4 @@ The Server does not save personal data of the clients and there is no need of an
 
 ## Suggestions & Reports
 
-Suggestions or errors are welcome to be [reported](https://github.com/Pulsar7/Math-Functions-Cryptography/issues)! 
+Suggestions or errors are welcome to be [reported](https://github.com/Pulsar7/Catch-Me/issues)! 
