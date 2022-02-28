@@ -30,7 +30,9 @@ Catch your friends with your phone using GPS and TCP sockets.
     
 ## Permissions
 
-There're some permissions responible for executing the <code>.apk</code>:
+**These instructions are for the <code>.spec</code>-File for buildozer.**
+
+There're some permissions responsible for executing the <code>.apk</code>:
     
     android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
     
