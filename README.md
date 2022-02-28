@@ -19,7 +19,7 @@ Catch your friends with your phone using GPS, TCP and websockets.
 
 ## Full Explanation
     
-- Android-APP (Client): Using Python-Module: [**Kivy**](https://kivy.org/#home)
+- Android-APP (Client): Using Python-Module: [**Kivy**](https://kivy.org/#home), [**KivyMD**](https://kivymd.readthedocs.io/en/latest/)
 
     - Converting to <code>.apk</code> by using [**Buildozer**](https://buildozer.readthedocs.io/en/latest/)
 
