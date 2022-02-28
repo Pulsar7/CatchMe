@@ -1,6 +1,6 @@
 # "Catch-Me"
 
-Catch your friends with your phone using GPS, tcp and websockets.
+Catch your friends with your phone using GPS, TCP and websockets.
 
 ## <code>Is still in progress.</code>
 
