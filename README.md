@@ -8,6 +8,7 @@ Catch your friends with your phone using GPS and TCP sockets.
 
 * [Full Explanation](#full-explanation)
 * [Requirements](#requirements)
+* [Permissions on android device](#permissions)
 * [Execution](#execution)
 * [Suggestions & Reports](#suggestions--reports)
 
@@ -26,6 +27,12 @@ Catch your friends with your phone using GPS and TCP sockets.
 ## Requirements
 
     $ pip install -r requirements.txt
+    
+## Permissions
+
+There're some permissions responible for executing the <code>.apk</code>:
+    
+    android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
     
 ## Execution
  
