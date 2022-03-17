@@ -4,6 +4,8 @@ Catch your friends with your phone using GPS, TCP and websockets.
 
 ## <code>Is still in progress.</code>
 
+[**HelloThere/CatchMe/Beschreibung**](https://www.hellothere.one/artikel/Aw100b286n804w342i86b530h18l430o330i740)
+
 ## Table of contents
 
 * [Full Explanation](#full-explanation)
@@ -42,4 +44,4 @@ Responsible permissions for executing the <code>.apk</code>:
 
 ## Suggestions & Reports
 
-Suggestions or errors are welcome to be [reported](https://github.com/Pulsar7/Catch-Me/issues)! 
+Suggestions or errors are welcome to be [reported](https://github.com/Pulsar7/Catch-Me/issues)!
