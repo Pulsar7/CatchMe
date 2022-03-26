@@ -1,6 +1,6 @@
 ![CatchMe-Icon](https://github.com/Pulsar7/Catch-Me/blob/main/images/icon.png?raw=true)
 
-# Catch-Me
+# CatchMe
 
 Catch your friends with your phone using GPS, TCP and websockets.
 
