@@ -6,8 +6,6 @@ Catch your friends with your phone using GPS, TCP and websockets.
 
 ## <code>Is still in progress.</code>
 
-[**HelloThere/CatchMe/Beschreibung**](https://www.hellothere.one/artikel/Ao534n115b992p755v957b852u27r93j504z758)
-
 ## Table of contents
 
 * [Full Explanation](#full-explanation)
