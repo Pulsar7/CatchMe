@@ -1,5 +1,5 @@
 ![CatchMe-Icon](https://github.com/Pulsar7/Catch-Me/blob/main/images/icon.png?raw=true)
-[![Author](https://img.shields.io/badge/author-Daniel%20M.%20Hendricks-lightgrey.svg?colorB=9900cc&style=flat-square)](https://www.danhendricks.com?utm_source=github.com&utm_medium=campaign&utm_content=button&utm_campaign=dmhendricks%2Ffile-icon-vectors)
+![Author](https://img.shields.io/badge/author-Pulsar7-lightgrey.svg?colorB=9900cc&style=flat-square)
 # CatchMe
 Android APP.
 Catch your friends with your phone.
