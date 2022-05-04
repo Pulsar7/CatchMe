@@ -1,6 +1,6 @@
 ![CatchMe-Icon](https://github.com/Pulsar7/Catch-Me/blob/main/images/icon.png?raw=true)
 ![Author](https://img.shields.io/badge/author-Pulsar7-lightgrey.svg?colorB=9900cc&style=flat-square)
-[![Release](https://img.shields.io/github/release/dmhendricks/file-icon-vectors.svg?style=flat-square)](https://github.com/dmhendricks/file-icon-vectors/releases)
+[![Release](https://img.shields.io/github/release/dmhendricks/file-icon-vectors.svg?style=flat-square)](https://github.com/PUlsar7/CatchMe/releases)
 
 # CatchMe
 
