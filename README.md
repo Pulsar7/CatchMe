@@ -14,9 +14,8 @@ Catch your friends with your phone.
 
 * [Client Explanation](#client-explanation)
 * [Server Explanation](#server-explanation)
-* [Requirements](#requirements)
-* [Permissions on android device](#permissions)
-* [Deployment](#deployment)
+* [Server Deployment](#server-deployment)
+* [Client Deployment](#client-deployment)
 * [Suggestions & Reports](#suggestions--reports)
 
 ## Client Explanation
@@ -28,19 +27,10 @@ Catch your friends with your phone.
 ## Server Explanation
 
 
-## Requirements
+## Server Deployment
 
-    $ pip install -r requirements.txt
-    
-## Permissions
 
-**These instructions are for the <code>.spec</code>-File for buildozer.**
-
-Responsible permissions for executing the <code>.apk</code>:
-    
-    android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
-    
-## Deployment
+## Client Deployment
  
 
 ## Suggestions & Reports
