@@ -1,0 +1,35 @@
+{
+    "APIServer": {
+        "name": "CatchMe-API-Server",
+        "host": "localhost",
+        "port": 5000,
+        "timezone": "EU/Rome"
+    },
+
+    "Database": {
+        "name": "CatchMeGameDB",
+        "connection_url": "mongodb://localhost:27017/",
+        "columns": {
+            "game_data_col": "GAME"
+        }
+    },
+
+    "Logging": {
+        "format": "'%(asctime)s - %(name)s - %(levelname)s - %(message)s'"
+    },
+    
+    "Game": {
+        "settings": {
+            "game_id": {
+                "len": 10,
+                "min": 0,
+                "max": 9
+            },
+
+            "game_password": {
+                "min_len_char": 6
+            }
+        },
+        "responses": {}
+    }
+}
