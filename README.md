@@ -5,18 +5,17 @@
 
 # CatchMe
 
-Android APP.
 Catch your friends with your phone.
 
-## <code>Is still in progress.</code>
+## :star:<code>Is still in progress.</code>
 
 ## Table of contents
 
-* [Client Explanation](#client-explanation)
-* [Server Explanation](#server-explanation)
-* [Server Deployment](#server-deployment)
-* [Client Deployment](#client-deployment)
-* [Suggestions & Reports](#suggestions--reports)
+* :point_right: [Client Explanation](#client-explanation)
+* :point_right: [Server Explanation](#server-explanation)
+* :point_right: [Server Deployment](#server-deployment)
+* :point_right: [Client Deployment](#client-deployment)
+* :point_right: [Suggestions & Reports](#suggestions--reports)
 
 ## Client Explanation
     
