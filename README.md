@@ -33,7 +33,8 @@ The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.
 ## Server Deployment
 When you decided to self host a CatchMe-Service, please follow these points:
     
-        git clone 
+    git clone https://github.com/Pulsar7/CatchMe.git
+    
 
 ## Client Deployment
  
