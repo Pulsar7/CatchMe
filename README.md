@@ -12,7 +12,7 @@
 
 ## :heavy_exclamation_mark:<code>Is still in progress</code>
 
-## Table of contents
+## :pushpin: Table of contents
 
 * :point_right: [Client Explanation](#client-explanation)
 * :point_right: [Server Explanation](#server-explanation)
@@ -33,7 +33,17 @@ The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.
 ## Server Deployment
 When you decided to self host a CatchMe-Service, please follow these points:
     
+**Download the repository from github with git and go to directory**
+    
+    sudo apt-get install git
     git clone https://github.com/Pulsar7/CatchMe.git
+    cd CatchMe/
+
+**Install requirements**
+
+    pip install -r requirements.txt
+    
+** **
     
 
 ## Client Deployment
@@ -41,4 +51,4 @@ When you decided to self host a CatchMe-Service, please follow these points:
 
 ## Suggestions & Reports
 
-Suggestions or errors are welcome to be [reported](https://github.com/Pulsar7/Catch-Me/issues)!
+Suggestions or errors are welcome to be [:link: reported](https://github.com/Pulsar7/Catch-Me/issues)!
