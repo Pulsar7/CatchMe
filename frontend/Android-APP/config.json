@@ -1,0 +1,46 @@
+{
+    "Server": {
+        "url": "https://catchme.hellothere.one/api/"
+    },
+
+    "Messages": {
+        "info": {},
+        "error": {
+            "dialog_title_server_connection_problems": "Connection Problems",
+            "dialog_text_server_connection_problems": "An error occured while connecting to server!",
+            "dialog_title_wrong_element_state": "ERROR",
+            "dialog_text_wrong_element_state": "Found wrong elements",
+            "dialog_title_couldnt_participate_game": "Participate - ERROR",
+            "dialog_title_couldnt_create_game": "Couldnt create game"
+        },
+        "warning": {}
+    },
+
+    "Window": {
+        "kv_filepath": "catchme.kv",
+        "primary_palette": "DeepPurple",
+
+        "DialogBoxes": {
+            "radius": [
+                20,
+                7,
+                20,
+                7
+            ]
+        },
+
+        "OkBtn": {
+            "text": "In Ordnung"
+        },
+
+        "Textfields": {
+            "wrong_textfeld_elements": [""," ","'"]
+        },
+
+        "Home": {
+            "info_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        "Participate": {},
+        "Create": {}
+    }
+}
