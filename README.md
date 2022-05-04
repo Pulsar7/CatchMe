@@ -28,9 +28,12 @@
 
 ## Server Explanation
 
+The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.x/) API, which is communicating with the client. 
 
 ## Server Deployment
-
+When you decided to self host a CatchMe-Service, please follow these points:
+    
+        git clone 
 
 ## Client Deployment
  
