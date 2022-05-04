@@ -8,7 +8,8 @@ Catch your friends with your phone using GPS, TCP and websockets.
 
 ## Table of contents
 
-* [Full Explanation](#full-explanation)
+* [Client Explanation](#client-explanation)
+* [Server Explanation](#server-explanation)
 * [Requirements](#requirements)
 * [Permissions on android device](#permissions)
 * [Deployment](#deployment)
@@ -19,11 +20,13 @@ Catch your friends with your phone using GPS, TCP and websockets.
 > Twitter: https://twitter.com/SevenPulsar \
 > StackOverflow: https://stackoverflow.com/users/13998100/pulsar 
 
-## Full Explanation
+## Client Explanation
     
 - Android-APP (Client): Using Python-Module: [**Kivy**](https://kivy.org/#home), [**KivyMD**](https://kivymd.readthedocs.io/en/latest/)
 
     - Converting to <code>.apk</code> by using [**Buildozer**](https://buildozer.readthedocs.io/en/latest/)
+
+## Server Explanation
 
 
 ## Requirements
