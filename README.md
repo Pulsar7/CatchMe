@@ -19,11 +19,6 @@ Catch your friends with your phone.
 * [Deployment](#deployment)
 * [Suggestions & Reports](#suggestions--reports)
 
-## Author
-
-> Twitter: https://twitter.com/SevenPulsar \
-> StackOverflow: https://stackoverflow.com/users/13998100/pulsar 
-
 ## Client Explanation
     
 - Android-APP (Client): Using Python-Module: [**Kivy**](https://kivy.org/#home), [**KivyMD**](https://kivymd.readthedocs.io/en/latest/)
