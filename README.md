@@ -26,6 +26,9 @@
 
     - Converting to <code>.apk</code> by using [**Buildozer**](https://buildozer.readthedocs.io/en/latest/)
 
+When starting the APP, the connection to the server is tested immediately and as soon as this fails, an error dialog is displayed.
+
+
 ## Server Explanation
 
 The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.x/) API, which is communicating with the client. 
