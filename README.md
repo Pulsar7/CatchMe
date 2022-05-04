@@ -43,7 +43,9 @@ When you decided to self host a CatchMe-Service, please follow these points:
 
     pip install -r requirements.txt
     
-** **
+**Run Server**
+
+    python3 rest_api_server.py
     
 
 ## Client Deployment
