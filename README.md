@@ -47,6 +47,7 @@ When you decided to self host a CatchMe-Service, please follow these points:
 
     python3 rest_api_server.py
     
+The Server should now be reachable on http://localhost:5000. But you can change some configurations in <code>/server/conf/config.json</code>.
 
 ## Client Deployment
  
