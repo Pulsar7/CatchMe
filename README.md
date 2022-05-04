@@ -11,7 +11,7 @@ Catch your friends with your phone using GPS, TCP and websockets.
 * [Full Explanation](#full-explanation)
 * [Requirements](#requirements)
 * [Permissions on android device](#permissions)
-* [Deployment] (#deployment)
+* [Deployment](#deployment)
 * [Suggestions & Reports](#suggestions--reports)
 
 ## Author
