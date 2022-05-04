@@ -33,17 +33,17 @@ The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.
 ## Server Deployment
 When you decided to self host a CatchMe-Service, please follow these points:
     
-**Download the repository from github with git and go to directory**
+:small_orange_diamond: **Download the repository from github with git and go to directory**
     
     sudo apt-get install git
     git clone https://github.com/Pulsar7/CatchMe.git
     cd CatchMe/
 
-**Install requirements**
+:small_orange_diamond: **Install requirements**
 
     pip install -r requirements.txt
     
-**Run Server**
+:small_orange_diamond: **Run Server**
 
     python3 rest_api_server.py
     
