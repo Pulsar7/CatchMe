@@ -10,7 +10,7 @@
 
 :small_blue_diamond: Catch your friends with your phone.
 
-## :heavy_exclamation_mark:<code>Is still in progress.</code>
+## :heavy_exclamation_mark:<code>Is still in progress</code>
 
 ## Table of contents
 
