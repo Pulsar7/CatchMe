@@ -11,7 +11,7 @@ Catch your friends with your phone using GPS, TCP and websockets.
 * [Full Explanation](#full-explanation)
 * [Requirements](#requirements)
 * [Permissions on android device](#permissions)
-* [Execution](#execution)
+* [Deployment] (#deployment)
 * [Suggestions & Reports](#suggestions--reports)
 
 ## Author
@@ -38,9 +38,8 @@ Responsible permissions for executing the <code>.apk</code>:
     
     android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
     
-## Execution
+## Deployment
  
- **Syntax**:
 
 ## Suggestions & Reports
 
