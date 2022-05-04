@@ -2,7 +2,7 @@
 
 # CatchMe
 Android APP.
-Catch your friends with your phone using GPS, TCP and websockets.
+Catch your friends with your phone.
 
 ## <code>Is still in progress.</code>
 
