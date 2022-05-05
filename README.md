@@ -37,9 +37,17 @@ The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.
 
 ## Server Deployment
 When you decided to self host a CatchMe-Service, please follow these points:
+
+:small_orange_diamond: **Download MongoDB**
+
+- You can install it at the official website of [**MongoDB**](https://www.mongodb.com/)
+- or install [**PyMongo**](https://pymongo.readthedocs.io/en/stable/) via pip:
     
+      pip3 install pymongo
+    
+     
 :small_orange_diamond: **Download the repository from github with git and go to directory**
-    
+ 
     sudo apt-get install git
     git clone https://github.com/Pulsar7/CatchMe.git
     cd CatchMe/backend/Rest-API-Server/
