@@ -8,7 +8,8 @@
 
 # CatchMe
 
-:large_orange_diamond: Catch your friends with your phone.
+:large_orange_diamond: Catch your friends with your phone. <br/>
+In order to be able to use the APP, a separate server would have to be set up, as there is currently no publicly accessible server.
 
 ## :heavy_exclamation_mark:<code>Is still in progress</code>
 
