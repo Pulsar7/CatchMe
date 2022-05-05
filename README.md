@@ -31,7 +31,7 @@ When starting the APP, the connection to the server is tested immediately and as
 
 ## Server Explanation
 
-The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.x/) API, which is communicating with the client. 
+The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.x/) API, which is communicating with the client. The configuration data is stored in the conf.json file and can be modified at will. But you should be aware that careless changes can affect the functioning of the server.
 
 ## Server Deployment
 When you decided to self host a CatchMe-Service, please follow these points:
