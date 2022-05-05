@@ -29,7 +29,10 @@ Sensitive location data is collected and shared with the server. However, since 
 
     - Converting to <code>.apk</code> by using [**Buildozer**](https://buildozer.readthedocs.io/en/latest/)
 
-When starting the APP, the connection to the server is tested immediately and as soon as this fails, an error dialog is displayed.
+When starting the APP, the connection to the server is tested immediately and as soon as this fails, an error dialog is displayed. </br>
+:unlock: Required permissions:
+
+ 	ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION, ACCESS_NETWORK_STATE, INTERNET
 
 ## Server Explanation
 
