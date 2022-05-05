@@ -69,7 +69,7 @@ The Server should now be reachable on http://localhost:5000. But you can change 
 
 - [ ] Encrypting all data in database (Server)
 - [ ] Improve layout from client
-- [ ] Auto reconnecting when losing internet connection
+- [ ] Auto reconnecting when losing internet connection (Client)
 
 ## Suggestions & Reports
 
