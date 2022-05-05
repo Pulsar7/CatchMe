@@ -8,9 +8,9 @@
 
 # CatchMe
 
-:large_orange_diamond: Catch your friends with your phone. <br/>
+:large_orange_diamond: Catch your friends with your phone. <br/><br/>
 :warning: In order to be able to use the APP, a separate server would have to be set up, as there is currently no publicly accessible server.
-Sensitive location data is collected and shared with the server. However, since the server does not yet have any encryption standards for the data, use of the APP is at your own risk. In the development of this project, general use was the most important.
+Sensitive location data is collected and shared with the server. However, since the server does not yet have any encryption standards for securing the data in the database, use the APP at your own risk. In the development of this project, general use was the most important.
 
 ## :heavy_exclamation_mark:<code>Is still in progress</code>
 
