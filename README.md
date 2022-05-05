@@ -82,6 +82,14 @@ The Server should now be reachable on http://localhost:5000. But you can change 
 
 :small_blue_diamond: **Insert the correct API-URL from Server in the <code>config.json</code>-File**
 
+Example: 
+    
+    ...
+    "Server": {
+        "url": "http://localhost:5000"
+    },
+    ...
+
 :small_blue_diamond: **Run Client**
 
     python3 catchme.py
