@@ -80,6 +80,8 @@ The Server should now be reachable on http://localhost:5000. But you can change 
 
     pip install -r requirements.txt
 
+:small_blue_diamond: **Insert the correct API-URL from Server in the <code>conf.json</code>-File**
+
 :small_blue_diamond: **Run Client**
 
     python3 catchme.py
