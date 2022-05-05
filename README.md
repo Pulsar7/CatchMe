@@ -97,7 +97,7 @@ Example (A snippet from the file):
 
 ## ToDo
 
-- [ ] Encrypting all data in database (Server)
+- [ ] SHA-256 encryption - all data in database (Server)
 - [ ] Improve layout from client
 - [ ] Auto reconnecting when losing internet connection (Client)
 - [ ] Add docker deployment (Server)
