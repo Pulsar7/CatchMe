@@ -18,6 +18,7 @@
 * :point_right: [Server Explanation](#server-explanation)
 * :point_right: [Server Deployment](#server-deployment)
 * :point_right: [Client Deployment](#client-deployment)
+* :point_right: [To Do](#to-do)
 * :point_right: [Suggestions & Reports](#suggestions--reports)
 
 ## Client Explanation
@@ -62,6 +63,12 @@ The Server should now be reachable on http://localhost:5000. But you can change 
 :small_blue_diamond: **Install requirements**
 
     pip install -r requirements.txt
+
+## To Do
+
+- [ ] Encrypting all data in database (Server)
+- [ ] Improve layout from client
+- [ ] Auto reconnecting when losing internet connection
 
 ## Suggestions & Reports
 
