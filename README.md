@@ -53,7 +53,16 @@ When you decided to self host a CatchMe-Service, please follow these points:
 The Server should now be reachable on http://localhost:5000. But you can change some configurations in <code>/server/conf/config.json</code>.
 
 ## Client Deployment
- 
+
+:small_blue_diamond: **Download the repository from github with git and go to directory**
+
+    sudo apt-get install git
+    git clone https://github.com/Pulsar7/CatchMe.git
+    cd CatchMe/frontend/Android-APP/
+
+:small_blue_diamond: **Install requirements**
+
+    pip install -r requirements.txt
 
 ## Suggestions & Reports
 
