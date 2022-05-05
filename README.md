@@ -40,7 +40,7 @@ When you decided to self host a CatchMe-Service, please follow these points:
     
     sudo apt-get install git
     git clone https://github.com/Pulsar7/CatchMe.git
-    cd CatchMe/
+    cd CatchMe/backend/Rest-API-Server/
 
 :small_orange_diamond: **Install requirements**
 
