@@ -66,6 +66,10 @@ The Server should now be reachable on http://localhost:5000. But you can change 
 
     pip install -r requirements.txt
 
+:small_blue_diamond: **Run Client**
+
+    python3 catchme.py
+
 ## ToDo
 
 - [ ] Encrypting all data in database (Server)
