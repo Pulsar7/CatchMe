@@ -44,7 +44,10 @@ When you decided to self host a CatchMe-Service, please follow these points:
 - or install [**PyMongo**](https://pymongo.readthedocs.io/en/stable/) via pip:
     
       pip3 install pymongo
-    
+      
+- or install MongoDB via the [**APT-Manager**](https://wiki.ubuntuusers.de/APT/) (for linux)
+      
+      sudo apt-get install mongodb
      
 :small_orange_diamond: **Download the repository from github with git and go to directory**
  
@@ -56,8 +59,11 @@ When you decided to self host a CatchMe-Service, please follow these points:
 
     pip install -r requirements.txt
     
-:small_orange_diamond: **Run Server**
+:arrow_forward: Before the server is started, it should be checked whether the connection address of the mongo database in the config file is correct.
+    
+:small_orange_diamond: **Start MongoDB and run server**
 
+    sudo service mongodb start
     python3 rest_api_server.py
     
 The Server should now be reachable on http://localhost:5000. But you can change some configurations in <code>/server/conf/config.json</code>.
