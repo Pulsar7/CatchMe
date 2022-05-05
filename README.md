@@ -52,6 +52,14 @@ When you decided to self host a CatchMe-Service, please follow these points:
 
     python3 rest_api_server.py
     
+### or using Docker
+
+After downloading the repo from Github and being in the right directory, docker can be used to start the server:
+
+:small_orange_diamond: **Running with docker**
+
+    docker run rest_api_server
+    
 The Server should now be reachable on http://localhost:5000. But you can change some configurations in <code>/server/conf/config.json</code>.
 
 ## Client Deployment
