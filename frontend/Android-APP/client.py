@@ -18,8 +18,11 @@ class CLIENT():
             status = False
         return status
 
-    def participate_game(self,data):
-        pass # Sending data to server requests.post()
+    def participate_to_game(self,data):
+        resp = {'code': None,'msg':"None"}
+        
+        return resp
 
     def create_game(self,game_data):
-        pass # Sending data to server requests.post()
+        resp = {'code':None,'msg':"None"}
+        return resp

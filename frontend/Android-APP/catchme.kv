@@ -16,12 +16,10 @@ MDNavigationLayout:
                 left_action_items: [['menu', lambda x: nav_drawer.set_state('toggle')]]
                 elevation: 10
                 md_bg_color: app.theme_cls.accent_color
-
             MDBoxLayout:
                 orientation: 'vertical'
                 pos_hint: {"top": 0.92}
                 md_bg_color: [10/255, 4/255, 41/255,0.65]
-
                 MDBoxLayout:
                     orientation: 'vertical'
                     pos_hint: {"top": 0.8}
@@ -41,7 +39,7 @@ MDNavigationLayout:
                         Label:
                             id: home_catchme_info_text
                             size_hint_y: None
-                            height: self.texture_size[1]
+                            height: self.texture_size[1]+4
                             text_size: self.width,None
                             font_size: "17sp"
                             halign: "left"

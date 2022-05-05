@@ -1,6 +1,6 @@
 {
     "Server": {
-        "url": ""
+        "url": "https://catchme.hellothere.one/api/"
     },
 
     "Messages": {
@@ -38,7 +38,7 @@
         },
 
         "Home": {
-            "info_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            "info_text": "Das Multi Player Spiel kann mit mindestens 3 Personen gespielt werden. Zu Beginn werden randomisierte Personen Rollen verliehen, wobei zwischen einem “Catcher” und einem “Searcher” unterschieden wird. Der “Catcher” fängt die “Searcher” und die “Searcher” verstecken sich vor den “Catcher”. Dabei ist zu beachten, dass das Spiel ein Zeitlimit hat, indem die “Catcher” alle 'Searcher' erfolgreich gefangen haben müssen. Gefangen ist ein “Searcher”, wenn der “Catcher” sich in einem Radius von einem Meter zum diesem befindet. Während des Spiels können, je nach Größe des Spielfelds, verschiedenste Verkehrsmittel benutzt werden. Diese Einstellung wird jedoch zu Beginn vom Spiel-Administrator festgelegt."
         },
         "Participate": {},
         "Create": {}
