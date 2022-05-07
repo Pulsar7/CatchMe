@@ -34,6 +34,11 @@ When starting the APP, the connection to the server is tested immediately and as
 
  	ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION, ACCESS_NETWORK_STATE, INTERNET
 
+<p align="center">
+    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Client-Aufbau_Elemente.png" width=500px; 
+         style="display: block; margin: 0 auto;border-radius:10px;">
+</p>
+
 ## Server Explanation
 
 The server is summarized a [**Flask**](https://flask.palletsprojects.com/en/2.1.x/) API, which is communicating with the client. The location data sent by the client is cached for a short time in order to calculate the distance with the other players. Each game is also written to the MongoDB with the players and remains stored until the respective game ends.
