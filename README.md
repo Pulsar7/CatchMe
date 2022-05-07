@@ -14,6 +14,11 @@ Sensitive location data is collected and shared with the server. However, since 
 
 ## :heavy_exclamation_mark:<code>Is still in progress</code>
 
+<p align="center">
+    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Basic-Structure.png" width=800px; 
+         style="display: block; margin: 0 auto;border-radius:10px;">
+</p>
+
 ## :pushpin: Table of contents
 
 * :point_right: [Client Explanation](#client-explanation)
