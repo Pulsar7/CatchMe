@@ -35,7 +35,7 @@ When starting the APP, the connection to the server is tested immediately and as
  	ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION, ACCESS_NETWORK_STATE, INTERNET
 
 <p align="center">
-    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Client-Aufbau_Elemente.png" width=500px; 
+    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Client-Aufbau_Elemente.png" width=800px; 
          style="display: block; margin: 0 auto;border-radius:10px;">
 </p>
 
