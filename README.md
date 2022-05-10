@@ -15,7 +15,7 @@ Sensitive location data is collected and shared with the server. However, since 
 ## :heavy_exclamation_mark:<code>Is still in progress</code>
 
 <p align="center">
-    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Basic-Structure.png" width=800px; 
+    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Basic-Structure.png" width=900px; 
          style="display: block; margin: 0 auto;border-radius:10px;">
 </p>
 :arrow_right: This is a mind map of what the rough structure of the server and client could look like. A VServer is used as a publicly accessible API.
@@ -41,7 +41,7 @@ When starting the APP, the connection to the server is tested immediately and as
  	ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION, ACCESS_NETWORK_STATE, INTERNET
 
 <p align="center">
-    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Client-Aufbau_Elemente.png" width=800px; 
+    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Client-Aufbau_Elemente.png" width=900px; 
          style="display: block; margin: 0 auto;border-radius:10px;">
 </p>
 
