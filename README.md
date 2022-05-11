@@ -38,7 +38,7 @@ Sensitive location data is collected and shared with the server. However, since 
 When starting the APP, the connection to the server is tested immediately and as soon as this fails, an error dialog is displayed. </br>
 :unlock: Required [permissions](https://developer.android.com/reference/android/Manifest.permission):
 
- 	ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION, ACCESS_NETWORK_STATE, INTERNET
+ 	ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION, ACCESS_NETWORK_STATE, INTERNET, MANAGE_EXTERNAL_STORAGE
 
 <p align="center">
     <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/Client-Aufbau_Elemente.png" width=900px; 
