@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/rounded_logo.png" width=500px; style="display: block; margin: 0 auto;border-radius:10px;">
+    <img src="https://github.com/Pulsar7/Catch-Me/blob/main/images/rounded_logo.png" width=400px; style="display: block; margin: 0 auto;border-radius:10px;">
 </p>
 
 [![Author](https://img.shields.io/badge/author-Pulsar7-lightgrey.svg?colorB=9900cc&style=flat-square)](https://github.com/Pulsar7)
