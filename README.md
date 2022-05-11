@@ -107,6 +107,14 @@ Example (A snippet from the file):
 
     python3 catchme.py
 
+:small_blue_diamond: **Create a package for Android (APK)**
+
+    git clone https://github.com/kivy/buildozer.git
+    cd buildozer
+    sudo python3 setup.py install
+    buildozer init
+    buildozer android debug deploy run
+
 ## ToDo
 
 - [ ] SHA-256 encryption - all data in database (Server)
