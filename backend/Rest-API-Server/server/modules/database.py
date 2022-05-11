@@ -5,13 +5,25 @@ import sys,pymongo,random,string
 sys.dont_write_bytecode = True
 
 class DATABASE():
-    def __init__(self,conf,logger):
-        (self.conf,self.logger) = (conf,logger)
+    def __init__(self,conf,logger,log_messages):
+        (self.conf,self.logger,self.log_messages) = (conf,logger,log_messages)
         db_connection_url = conf.get('Database','connection_url')
         client = pymongo.MongoClient(db_connection_url) # connect to pymongo-service
         db = client[conf.get('Database','name')]
         self.game_data_col = db[conf.get('Database','columns')['game_data_col']]
+        self.blacklist_col = db[conf.get('Database','columns')['blacklist_col']]
         self.player_modi = conf.get('Game','settings')['player_modi']
+
+    def check_if_addr_in_blacklist(self,address_data):
+        elements = self.blacklist_col.find(address_data)
+        response = {'state':None,'msg':None}
+        if (len(elements) == 0):
+            response['state'] = False
+            response['msg'] = self.conf.get('Game','responses')['blocked_request_route']['get_method']%(
+                address_data['addr'])
+        else:
+            response['state'] = True
+        return response
 
     def add_game(self,game_data):
         status = True

@@ -10,7 +10,8 @@
         "name": "CatchMeGameDB",
         "connection_url": "mongodb://localhost:27017/",
         "columns": {
-            "game_data_col": "GAME"
+            "game_data_col": "GAME",
+            "blacklist_col": "BLACKLIST"
         }
     },
 
@@ -45,6 +46,13 @@
         },
 
         "responses": {
+            "blocked_request_route": {
+                "get_method": {
+                    "title": "CatchMe - Blocked Request",
+                    "msg": "Your IP-Address %s:%s was found in the blacklist!"
+                }
+            },
+
             "bad_request_route": {
                 "get_method": {
                     "title": "CatchMe - 400",

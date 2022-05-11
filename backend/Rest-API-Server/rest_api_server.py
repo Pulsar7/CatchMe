@@ -30,10 +30,11 @@ logger.addHandler(ch)
 log_messages = conf.get('Logging','messages')
 
 # Response-Handler & Database
-db = database.DATABASE(conf,logger)
+db = database.DATABASE(conf,logger,log_messages)
 responder = response_handler.HANDLER(conf,logger,db,log_messages)
 
 # API-Routes
+catchme_api.before_request(responder.before_request_route)
 catchme_api.add_url_rule('/',view_func=responder.index_route,methods=['GET'])
 catchme_api.add_url_rule('/create_game',view_func=responder.create_game_route,methods=['POST','GET'])
 catchme_api.add_url_rule('/participate_game',view_func=responder.participate_game_route,methods=['POST','GET'])

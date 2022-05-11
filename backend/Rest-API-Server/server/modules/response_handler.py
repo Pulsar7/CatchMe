@@ -21,6 +21,14 @@ class HANDLER():
         now = datetime.now(pytz.timezone(self.timezone))
         return (f"{now.hour}:{now.minute}:{now.second}")
 
+    def before_request_route(self,*args):
+        request_addr = request.remote_addr
+        response = self.check_if_addr_in_blacklist({'address':request_addr})
+        if (response['state'] == True):
+            return jsonify(response['msg'])
+        else:
+            pass
+
     def bad_request_route(self,*args):
         self.logger.warning(self.log_messages['warning']['bad_request'])
         return jsonify(self.conf.get('Game','responses')['bad_request_route']['get_method'])
