@@ -15,7 +15,18 @@
     },
 
     "Logging": {
-        "format": "'%(asctime)s - %(name)s - %(levelname)s - %(message)s'"
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "messages": {
+            "info": {
+                "debug_state": "Debug mode: %s"
+            },
+            "warning": {
+                "bad_request": "Bad request",
+                "not_found": "Not found request"
+            },
+            "error": {},
+            "critical": {}
+        }
     },
     
     "Game": {
@@ -26,10 +37,57 @@
                 "max": 9
             },
 
+            "player_modi": ["Catcher","Seeker"],
+
             "game_password": {
                 "min_len_char": 6
             }
         },
-        "responses": {}
+
+        "responses": {
+            "bad_request_route": {
+                "get_method": {
+                    "title": "CatchMe - 400",
+                    "msg": "The server couldn't handle the request!",
+                    "your_requested_url": ""
+                }
+            },
+
+            "not_found_route": {
+                "get_method": {
+                    "title":"CatchMe - 404", 
+                    "msg":"This is not the page you're looking for.",
+                    "your_requested_url": ""
+                }
+            },
+
+            "index_route": {
+                "get_method": {
+                    "title":"CatchMe - INDEX", 
+                    "msg":"Wassup?"
+                }
+            },
+
+            "participate_game_route": {
+                "get_method": {
+                    "title":"CatchMe - ParticpateGame", 
+                    "msg": "Well. Here is nothing."
+                }
+            },
+
+            "create_game_route": {
+                "get_method": {
+                    "title":"CatchMe - CreateGame", 
+                    "msg": "Well. Here is nothing."
+                }
+            },
+
+            "send_coordinates_route": {
+                "get_method": {
+                    "title":"CatchMe - SendCoordinates", 
+                    "msg": "Well. Here is nothing."
+                }
+            }
+        }
     }
 }

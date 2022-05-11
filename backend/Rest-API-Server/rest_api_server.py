@@ -8,7 +8,6 @@ from flask import (Flask)
 
 conf = config.CONFIG('server/conf/config.json')
 server_name = conf.get('APIServer', 'name')
-db = database.DATABASE(conf)
 catchme_api = Flask(server_name)
 
 # Argparse
@@ -28,20 +27,23 @@ ch.setLevel(logging.DEBUG)
 formatter = logging.Formatter(conf.get('Logging','format'))
 ch.setFormatter(formatter)
 logger.addHandler(ch)
+log_messages = conf.get('Logging','messages')
 
-# Response-Handler
+# Response-Handler & Database
 db = database.DATABASE(conf,logger)
-responder = response_handler.HANDLER(conf,logger,db)
+responder = response_handler.HANDLER(conf,logger,db,log_messages)
 
 # API-Routes
+catchme_api.add_url_rule('/',view_func=responder.index_route,methods=['GET'])
 catchme_api.add_url_rule('/create_game',view_func=responder.create_game_route,methods=['POST','GET'])
 catchme_api.add_url_rule('/participate_game',view_func=responder.participate_game_route,methods=['POST','GET'])
 catchme_api.add_url_rule('/send_coordinates',view_func=responder.send_coordinates_route,methods=['POST','GET'])
-
+catchme_api.register_error_handler(400,responder.bad_request_route)
+catchme_api.register_error_handler(404,responder.not_found_route)
 
 if (__name__ == '__main__'):
     os.system("clear") #Linux
-    logger.info(f"Debug mode: {args.debug}")
+    logger.info(log_messages['info']['debug_state']%(args.debug))
     catchme_api.run(
         host = conf.get('APIServer','host'),
         port = conf.get('APIServer','port'),
